@@ -8,7 +8,8 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title:
+      "I prioritize teamwork and open communication to achieve desired target.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +19,8 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title:
+      "I'm flexible with time zone communications and make sure to stay connected for work anytime you want.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-4",
     imgClassName: "",
@@ -29,7 +31,8 @@ export const gridItems = [
 
   {
     id: 4,
-    title: "Tech enthusiast with a passion for software development.",
+    title:
+      "Tech enthusiast with a passion for software development, mastering JS, TS, React and Node.js.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -41,7 +44,7 @@ export const gridItems = [
   {
     id: 5,
     title:
-      "Hello! I'm Wajiha, a dedicated professional with a rich background in content writing, now embarking on an exciting journey to transition into the world of programming. I am a full-stack developer having a practical experience of about one year using JavaScript & TypeScript Node.js, React, Angular. Also recently got graduate from a 6-month full-stack development program at Code Academy in Berlin, Germany, where I worked on several projects involving HTML, CSS, JavaScript, React framework and Typescript tech stacks.",
+      "I'm a dedicated professional with a rich background in content writing, now embarking on an exciting journey to transition into the world of programming. I am a full-stack developer having a practical experience of about one year using JavaScript & TypeScript, HTML, CSS, React, Node.js and Next.js . Also recently got graduated from a 6-month full-time fullstack development program at Code Academy in Berlin, Germany, where I worked on several projects involving HTML, CSS, JavaScript, React framework and Typescript.",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -124,6 +127,15 @@ export const projects = [
     img: "/movie.png",
     iconLists: ["/js.svg", "/css.jpeg", "/html1.jpg"],
     link: "https://movie-search-project-wajiha.netlify.app/",
+  },
+
+  {
+    id: 6,
+    title: "Random Activity Generator",
+    des: "This app generates a random activity based on type and no. of participants.",
+    img: "/RAG.png",
+    iconLists: ["/js.svg", "/css.jpeg", "/html1.jpg"],
+    link: "https://boredactivitygenerator.netlify.app/",
   },
 ];
 

@@ -27,7 +27,7 @@ const Approach = () => {
         <Card
           title="Development & Progress Update"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I dive into coding and begin developing your porject. From initial implementation to final code, I keep you updated
+          des="Once we agree on the plan, I dive into coding and begin developing your project. From initial implementation to final code, I keep you updated
           every step of the way."
         >
           <CanvasRevealEffect

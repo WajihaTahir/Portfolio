@@ -33,14 +33,16 @@ const Hero = () => {
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <TextGenerateEffect
             words="Ready to apply my web development skills for your projects."
-            className="text-center text-[40px] md:text-4xl lg:text-5xl"
+            className="text-center text-[40px] md:text-4xl lg:text-5xl "
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Wajiha Tahir, a fullstack developer based in Berlin.
+            Hi! I&apos;m Wajiha Tahir, a fullstack developer based in Berlin
+            with experience in tech stacks such as TS, JS, React, Node.js,
+            Next.js and HTML.
           </p>
 
-          <a href="#about">
+          <a href="#projects">
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}
