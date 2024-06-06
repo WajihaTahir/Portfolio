@@ -1,7 +1,6 @@
 "use client";
 import { useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
-
 import Lottie from "react-lottie";
 
 import { cn } from "@/utils/cn";
@@ -10,7 +9,6 @@ import { BackgroundGradientAnimation } from "./GradientBg";
 import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "./MagicButton";
-
 export const BentoGrid = ({
   className,
   children,
@@ -35,6 +33,7 @@ export const BentoGridItem = ({
   id,
   title,
   description,
+  //   remove unecessary things here
   img,
   imgClassName,
   titleClassName,
@@ -49,8 +48,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["ReactJS", "JavaScript", "Typescript"];
-  const rightLists = ["Node.js", "React", "GraphQL"];
+  const leftLists = ["ReactJS", "Express", "Typescript"];
+  const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
 
   const [copied, setCopied] = useState(false);
 
@@ -64,13 +63,14 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "wajihatahir1994@gmail.com";
+    const text = "hsu@jsmastery.pro";
     navigator.clipboard.writeText(text);
     setCopied(true);
   };
 
   return (
     <div
+      id="about"
       className={cn(
         "row-span-1 relative overflow-hidden rounded-3xl border border-white/[0.1] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4",
         className
@@ -158,6 +158,10 @@ export const BentoGridItem = ({
           )}
           {id === 6 && (
             <div className="mt-5 relative">
+              {/* button border magic from tailwind css buttons  */}
+              {/* add rounded-md h-8 md:h-8, remove rounded-full */}
+              {/* remove focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 */}
+              {/* add handleCopy() for the copy the text */}
               <div
                 className={`absolute -bottom-5 right-0 ${
                   copied ? "block" : "block"

@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Tech Stacks", link: "#techstacks" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -20,22 +20,13 @@ export const gridItems = [
     id: 2,
     title: "I'm very flexible with time zone communications",
     description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-4",
     imgClassName: "",
     titleClassName: "justify-start",
     img: "",
     spareImg: "",
   },
-  {
-    id: 3,
-    title: "My tech stack",
 
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    imgClassName: "",
-    titleClassName: "justify-center",
-    img: "",
-    spareImg: "",
-  },
   {
     id: 4,
     title: "Tech enthusiast with a passion for software development.",
@@ -49,7 +40,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building my skills and looking for entry-level positions",
+    title:
+      "Hello! I'm Wajiha, a dedicated professional with a rich background in content writing, now embarking on an exciting journey to transition into the world of programming. I am a full-stack developer having a practical experience of about one year using JavaScript & TypeScript Node.js, React, Angular. Also recently got graduate from a 6-month full-stack development program at Code Academy in Berlin, Germany, where I worked on several projects involving HTML, CSS, JavaScript, React framework and Typescript tech stacks.",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -89,7 +81,7 @@ export const projects = [
   {
     id: 2,
     title: "FurPals, Pet Social Media",
-    des: "A pet social media app where users can post pictures of their pets, like, and comment on other pets' pictures as well.",
+    des: "A pet social media app where users can post pictures of their pets.",
     img: "/petsocial.png",
     iconLists: [
       "/ts.svg",
@@ -107,12 +99,12 @@ export const projects = [
     des: "Rick n Morty character search along with pagination to go to any page.",
     img: "/RnM.png",
     iconLists: ["/js.svg", "/css.jpeg", "/html1.jpg"],
-    link: "/ui.aiimg.com",
+    link: "https://rickandmorty-wajiha.netlify.app/",
   },
   {
     id: 4,
     title: "Travel Buddy App",
-    des: "A collaborative project where app users can signup and find travel buddies travelling to the same destination.",
+    des: "A collaborative project where app users can signup and find travel buddies.",
     img: "/travel.png",
     iconLists: [
       "/next.svg",
@@ -121,7 +113,6 @@ export const projects = [
       "/express.png",
       "/html1.jpg",
       "/mongodb.png",
-      "/re.svg",
       "/graphql.jpeg",
     ],
     link: "/",
@@ -129,43 +120,10 @@ export const projects = [
   {
     id: 5,
     title: "MovieInfo, Movie Search App",
-    des: "Created a movie search app using OMDB API to search for movies and series.",
+    des: "Created a movie search app using OMDB API to search for movies.",
     img: "/movie.png",
     iconLists: ["/js.svg", "/css.jpeg", "/html1.jpg"],
     link: "https://movie-search-project-wajiha.netlify.app/",
-  },
-];
-
-export const testimonials = [
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
   },
 ];
 
@@ -202,34 +160,12 @@ export const companies = [
   },
 ];
 
-export const workExperience = [
+export const techStack = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+
+    desc: "HTML, CSS, JavaScript, React, TypeScript, TailwindCSS, BootStap, MaterialUI, Node.js, Express.js, Firebase, MongoDb",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
-  },
-  {
-    id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
   },
 ];
 
@@ -237,13 +173,11 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-  },
-  {
-    id: 2,
-    img: "/twit.svg",
+    url: "https://github.com/WajihaTahir",
   },
   {
     id: 3,
     img: "/link.svg",
+    url: "https://www.linkedin.com/in/wajiha-tahir-569803124/",
   },
 ];
